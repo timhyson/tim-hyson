@@ -12,7 +12,7 @@ const Footer = () => (
     <div className="row">
       <article className="credits col-md-6">
         <p className="font4 dark">
-          Copyright &copy; 2020{" "}
+          Copyright &copy; 2021{" "}
           <Link target="_blank" to="#">
             timecode.software
           </Link>
