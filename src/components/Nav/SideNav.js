@@ -1,6 +1,7 @@
 import React from "react"
 
 import NavbarLinks from "./NavbarLinks"
+import SocialLinks from "./SocialLinks"
 import Logo from "./Logo"
 
 const SideNav = () => (
@@ -12,6 +13,11 @@ const SideNav = () => (
           <NavbarLinks />
         </nav>
       </div>
+    </div>
+    <div className="inner">
+      <nav className="mastnav font2" style={{ position: "absolute", bottom: "5%" }}>
+        <SocialLinks />
+      </nav>
     </div>
   </header>
 )

@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import styled from "styled-components"
 import NavbarLinks from "./NavbarLinks"
+import SocialLinks from "./SocialLinks"
 import Logo from "./Logo"
 
 const Navigation = styled.nav`
@@ -104,6 +105,9 @@ const Navbar = () => {
       {navbarOpen ? (
         <Navbox>
           <NavbarLinks />
+          <div style={{ marginTop: "50%"}}>
+            <SocialLinks />
+          </div>
         </Navbox>
       ) : (
         <Navbox open>
